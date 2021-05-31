@@ -1,2 +1,3 @@
 # CodeChallanges
 This repository includes the python notebooks for the code challanges solved...
+Each jupyter notebook includes the problem statement and code to solve the same.
