@@ -11,7 +11,8 @@ Create a function to read the array of strings stored in a string array which wi
 "H" reprsents its home
 "F" represents dog food
 "O" represents empty space in grid
-GOAL
+
+__GOAL__
 
 The goal is to figure out the least amount of moves required to get Charlie to grab each piece of food in the grid by moving up, down, top or left and then make it home right after.
 
@@ -19,7 +20,7 @@ Charlie cannot move onto the home before all pieces of food have been collected.
 
 The grid will alwasy contain between 1 to 8 pieces of food.
 
-Example
+__Example__
 
 if strAr is ["FOOF", "OCOO", "OOOH", "FOOO"] then the least amount of steps where dog can reach each piece of food and then return hom is 11 steps.
 
@@ -73,7 +74,7 @@ This can be interpreted as a connection existing from node X to node Y if there 
 
 NOTE: X to Y does not impy a connection from Y to X
 
-GOAL
+__GOAL__
 
 The programme should determine wheather or not the matrix, which represents connections are among the nodes, is transitive.
 
@@ -83,10 +84,19 @@ Generalized form: If there is a relatioon xRy and yRz then xRz should exists wit
 
 If matrix is completely transitive then return the string "transitive".
 If it isn't, the program should return the connections needed, in the following format, in order for the matrix to be transitive: (N1,N2)-(N3,N4)-(...)
-Example
+
+__Example__
 
 You can ignore the reflexive property of nodes in answers. Return the connections needed in lexicographical order.
 
 Input: ["(1,1,1)","(0,1,1)","(0,1,1)"]. Output: transitive
 Input: ["(0,1,0,0)","(0,0,1,0)","(0,0,1,1)","(0,0,0,1)"]. Output: (0,2)-(1,3)
 Input: ["(1,1,1)","(1,0,0)","(0,1,0)"]. Output: (1,2)-(2,0)
+
+
+### 3.Min Window Substring
+Have the function MinWindowSubstring(strArr) take the array of strings stored in strArr, which will contain only two strings, the first parameter being the string N and the second parameter being a string K of some characters, and
+
+__GOAL :__ Determine the smallest substring of N that contains all the characters in K. For example: if strArr is ["aaabaaddae", "aed"] then the smallest substring of N that contains the characters a, e, and d is "dae" located at the end of the string. So for this example your program should return the string dae.
+
+__Examples__: Input: ["aabdccdbcacd", "aad"] Output: aabd Input: ["ahffaksfajeeubsne", "jefaa"] Output: aksfaje Input: ["aaffhkksemckelloe", "fhea"] Output: affhkkse
