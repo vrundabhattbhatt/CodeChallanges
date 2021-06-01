@@ -100,3 +100,15 @@ Have the function MinWindowSubstring(strArr) take the array of strings stored in
 __GOAL :__ Determine the smallest substring of N that contains all the characters in K. For example: if strArr is ["aaabaaddae", "aed"] then the smallest substring of N that contains the characters a, e, and d is "dae" located at the end of the string. So for this example your program should return the string dae.
 
 __Examples__: Input: ["aabdccdbcacd", "aad"] Output: aabd Input: ["ahffaksfajeeubsne", "jefaa"] Output: aksfaje Input: ["aaffhkksemckelloe", "fhea"] Output: affhkkse
+
+
+### 4. Nonrepeating Character
+__GOAL__:
+    Have the function NonrepeatingCharacter(str) take the str parameter being passed, which will contain only alphabetic characters and spaces, and return the first non-repeating character. 
+    For example: if str is "agettkgaeee" then your program should return k. The string will always contain at least one character and there will always be at least one non-repeating character.
+
+__Examples__
+Input: "abcdef"
+Output: aInput: "hello world hi hey"
+Output: w
+
